@@ -5,7 +5,7 @@ pipeline {
         DOCKER_IMAGE = 'abdul2n/dockertest'  // Docker Hub repository
         DOCKER_CREDENTIALS_ID = 'dockerhub_credentials'  // Docker Hub credentials in Jenkins
         DEPLOYMENT_NAME = 'swiggy-app'
-        CONTAINER_PORT = '80'
+        CONTAINER_PORT = '86'
     }
 
     stages {
